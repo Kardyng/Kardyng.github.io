@@ -1,0 +1,70 @@
+@font-face {
+    font-family: comic ;
+    src: url(ComicSansMS3.ttf);
+  }
+  
+
+    .Page{
+        width: 780px;
+        margin: auto;
+        font-family: comic ;
+        font-size: 16px;         
+    }
+
+.photo{
+    height: 250px;
+    position: absolute;
+        left: 1150px;
+        top: 50px;
+}
+
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.sec-gauche{
+    float:left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec-droite{
+    margin-left: 150px;
+}
+
+h2{
+    font-size: 28px;
+    color: skyblue;
+    border-bottom: 3px solid skyblue;
+}
+
+.titre{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.durée{
+    font-size: smaller;
+    font-weight: normal;
+}
+
+#forma-gauche p{
+    margin-bottom: 91px;
+}
+
+
+#com-droite p{
+    position: relative;
+    bottom: 170px
+}
+
+#com-gauche p{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#exp-droite p{
+    position: relative;
+    bottom: -51px
+}
